@@ -1,23 +1,21 @@
-Algoritmo "EX7"
+Algoritmo "Ex6"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Conventer Fahrenheit para Celsius (função)
-// Autor(a)    : NOdair José Barroso de sousa Júnior
+// Descrição   : Atroca de valores (função)
+// Autor(a)    : Odair José Barroso de Sousa Júnior
 // Data atual  : 30/03/2022
 Var
 // Seção de Declarações das variáveis 
-  cel, far: real
+   a, b, troca: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-  escreval(" Tabela de conversão: Celcius > Fahtenheit ")
-  escreval("Digite a temperatura em Celcius:")
-  leia(cel)
-
-
-  far<- 9 * cel + 160 / 5
-  
-  Escreva(" a conversão de ", cel, "°C para Fahrenheit é de ", far, "°F")
-  
+   escreval("Digite o valor(numérico) da variável A:")
+   leia(a)
+   
+   escreval("Digite o valor(numérico) da variável B:")
+   leia(b)
+   
+   escreva("o valor de A é", b , " e o valor de B é", a)
 
 Fimalgoritmo
