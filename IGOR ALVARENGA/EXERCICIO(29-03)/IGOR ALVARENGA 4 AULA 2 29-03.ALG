@@ -8,7 +8,6 @@ Var
    // Seção de Declarações das variáveis
    salario, vendas,comissao,  salarioFinal: real
    nome: caractere
-
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreval("<><><><><>SISTEMA DE GESTÃO DE VENDEDORES<><><><><>")
