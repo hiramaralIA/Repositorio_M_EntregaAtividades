@@ -1,21 +1,34 @@
-Algoritmo "Ex6"
+Algoritmo "Ex5"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Atroca de valores (função)
+// Descrição   : aprovação do aluno (função)
 // Autor(a)    : Odair José Barroso de Sousa Júnior
-// Data atual  : 30/03/2022
+// Data atual  : 31/03/2022
 Var
 // Seção de Declarações das variáveis 
-   a, b, troca: inteiro
+   aluno: caractere
+   av1, av2, av3: real
+   media, mediafinal: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("Digite o valor(numérico) da variável A:")
-   leia(a)
-   
-   escreval("Digite o valor(numérico) da variável B:")
-   leia(b)
-   
-   escreva("o valor de A é", b , " e o valor de B é", a)
+    escreval("====== Média de alunos =====")
+    escreva("Digite o nome do aluno:")
+    leia(aluno)
+
+    escreva("Digite a nota da 1° prova")
+    leia(av1)
+    
+    escreva("Digite a nota da 2° prova")
+    leia(av2)
+    
+    escreva("Digite a nota da 3° prova")
+    leia(av3)
+    
+    media<- av1 + av2 + av3
+    mediafinal<- media / 3
+    
+    escreva("O aluno(a)", aluno, "obteve media", mediafinal, "no semestre")
+    
 
 Fimalgoritmo

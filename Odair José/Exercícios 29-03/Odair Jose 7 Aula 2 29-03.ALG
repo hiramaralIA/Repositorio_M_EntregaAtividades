@@ -1,23 +1,23 @@
-Algoritmo "Ex8"
+Algoritmo "EX7"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Coverte o valor de Real para dolar (função)
-// Autor(a)    : Odair Jose Barroso de Sousa Júnior
+// Descrição   : Conventer Fahrenheit para Celsius (função)
+// Autor(a)    : NOdair José Barroso de sousa Júnior
 // Data atual  : 30/03/2022
 Var
 // Seção de Declarações das variáveis 
-    rs, us, cotacao, dolaDispobivel: real
+  cel, far: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("===== Cotação do dólar=====")
-   escreval("Qual a cotação atula do dólar?")
-   leia(cotacao)
-   escreval("Quantos doláres você possui?")
-   leia(us)
-   
-   rs<- us * cotacao
-   
-   escreva("você têm ", rs, " reais")
+  escreval(" Tabela de conversão: Celcius > Fahtenheit ")
+  escreval("Digite a temperatura em Celcius:")
+  leia(cel)
+
+
+  far<- 9 * cel + 160 / 5
+  
+  Escreva(" a conversão de ", cel, "°C para Fahrenheit é de ", far, "°F")
+  
 
 Fimalgoritmo

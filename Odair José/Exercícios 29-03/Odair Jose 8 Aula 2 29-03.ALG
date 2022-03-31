@@ -1,26 +1,23 @@
-Algoritmo "Ex9"
+Algoritmo "Ex8"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Rendimento do mês (função)
-// Autor(a)    : Odair José Barroso de Sousa Júnior
-// Data atual  : 31/03/2022
+// Descrição   : Coverte o valor de Real para dolar (função)
+// Autor(a)    : Odair Jose Barroso de Sousa Júnior
+// Data atual  : 30/03/2022
 Var
 // Seção de Declarações das variáveis 
-    juro, deposito: real
-    correcao: real
-    total: real
+    rs, us, cotacao, dolaDispobivel: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-    escreval("Sistema de depósito do Banco do Oeste")
-    escreval("Digite o valor depositado:")
-    leia(deposito)
-    
-    juro<- 0.70/100
-    correcao<- deposito * juro
-    total<- deposito + correcao
-    
-    escreval("O seu rendimento do mês foi de", deposito, " +", correcao)
-    escreval("total:", total)
+   escreval("===== Cotação do dólar=====")
+   escreval("Qual a cotação atula do dólar?")
+   leia(cotacao)
+   escreval("Quantos doláres você possui?")
+   leia(us)
+   
+   rs<- us * cotacao
+   
+   escreva("você têm ", rs, " reais")
 
 Fimalgoritmo
