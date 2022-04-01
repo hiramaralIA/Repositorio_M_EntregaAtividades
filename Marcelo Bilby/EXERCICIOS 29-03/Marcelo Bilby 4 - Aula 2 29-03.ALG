@@ -16,7 +16,6 @@ Inicio
    inicio
 
          res <- x * 15/100
-         escreval(" O consumo médio de seu automóvel é: ", res:2:2, " Litros")
 
    fimprocedimento
 
