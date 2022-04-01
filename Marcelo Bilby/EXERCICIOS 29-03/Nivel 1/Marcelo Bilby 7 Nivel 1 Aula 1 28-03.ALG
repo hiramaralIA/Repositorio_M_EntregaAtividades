@@ -1,7 +1,7 @@
 Algoritmo "concatenaDuasStrings"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : concatena dois caracteres
 // Autor(a)    : alunocetam
 // Data atual  : 25/03/2022
 Var

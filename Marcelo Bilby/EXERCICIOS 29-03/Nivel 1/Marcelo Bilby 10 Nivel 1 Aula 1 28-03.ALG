@@ -1,7 +1,7 @@
-Algoritmo "exe9_dobro"
+Algoritmo "imprimeODobro"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Imprime o valor do número digitado
 // Autor(a)    : alunocetam22
 // Data atual  : 25/03/2022
 Var
