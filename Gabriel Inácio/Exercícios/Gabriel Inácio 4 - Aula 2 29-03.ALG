@@ -1,45 +1,34 @@
-Algoritmo "Exercicio4"
+Algoritmo "Exercício4"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Informar Nome, Salário e Salário Final
-// Autor(a)    :Gabriel Inácio
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gabriel Inácio
 // Data atual  : 29/03/2022
 Var
 // Seção de Declarações das variáveis 
-
    nome: caractere
-   salario, vendas, comissao, res, y: real
+   salario: real
+   vendas: real
+   comissao: real
+   salarioFinal: real
+
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   procedimento calcular (x: real)
-   inicio
-
-         res <- x * 15/100
-         escreval(" O consumo médio de seu automóvel é: ", res:2:2, " Litros")
-
-   fimprocedimento
-
-
-   escreval("=== PROGRAM INFORMA NOME, SALÁRIO E SALÁRIO FINAL  =====")
-   escreval("========================================================")
-
-   escreva(" Informe seu nome: ")
+   escreval("Sistema de gestão de vendedores")
+   escreva("Digite o nome do vendedor:")
    leia(nome)
-   
-   escreva(" Informe seu salario em R$: ")
+   escreva("Digite o salário:")
    leia(salario)
-   
-   escreva(" Informe suas vendas em R$: ")
+   escreva("Informe a quantidade de vendas deste no mês:")
    leia(vendas)
    
-   calcular(vendas)
-   
-   escreval(">>>>>>>>>>>>>>>>>>>> RESUMO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-   escreval(" NOME: ", nome)
-   escreval(" SALARIO FIXO: ", salario)
-   escreva(" SALÁRIO FINAL: ", salario + res)
-
-
-
+ //Cálculo da comissão e salário final
+    comissao <- 0.15 * vendas
+    salariofinal <- salario + comissao
+    limpatela
+    escreval(" RESUMO ")
+    escreval(" Nome do vendedor:",nome)
+    escreval(" Salário fixo: ",salario)
+    escreval(" Salário Final (salário + comissão):",salarioFinal)
 Fimalgoritmo
