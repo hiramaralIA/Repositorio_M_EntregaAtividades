@@ -1,9 +1,9 @@
-Algoritmo "semnome"
+Algoritmo "exe8_parafaca"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Thiago
-// Data atual  : 01/04/2022
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2022
 Var
 // Seção de Declarações das variáveis
      contador: inteiro
