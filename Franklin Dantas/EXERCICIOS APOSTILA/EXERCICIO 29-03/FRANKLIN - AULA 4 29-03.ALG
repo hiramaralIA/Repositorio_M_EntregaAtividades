@@ -1,8 +1,8 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Aluno  : Franklin Dantas 
-// Descrição   : Calcula 2
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "VENDAS E COMISSOES"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Aluno       : Franklin Dantas
+// Descrição   : Calculo de Vendas e Comissões
+// Autor(a)    : Franklin Dantas
 // Data atual  : 29/03/2022
 Var
 // Seção de Declarações das variáveis 
