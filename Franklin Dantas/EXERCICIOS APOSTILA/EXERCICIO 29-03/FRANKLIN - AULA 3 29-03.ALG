@@ -1,7 +1,7 @@
-Algoritmo "EXERCIO 03"
+Algoritmo "CALCULO DE Km/Lt"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
-// Descrição   : SOMA, SUB , MULTIPLICA, DIVIDE (função)
+// Descrição   : Calculo de Combustível.
 // Autor(a)    : Franklin Dantas
 // Data atual  : 25/03/2022
 
@@ -13,6 +13,7 @@ media   : real
 
 
 Inicio
+
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
 escreval ("CALCULO DE CONSUMO MEDIO DE COMBUSTIVEL")
@@ -26,11 +27,6 @@ escreval()
 media <- DIST/COMBUS
 escreval ("RESULTADOS ")
 escreval ("===========")
-escreva ("Com ",COMBUS)
-escreva (" litros de combustivel você percorreu ",DIST)
-escreva (" de kilometro(s). Com a media de ",media)
-escreva (" Km/Lt.")
-
-
+escreva ("Com ",COMBUS," litros de combustivel você percorreu ",DIST, " de kilometro(s).Com a média de ",media," Km/Lt.")
 
 Fimalgoritmo

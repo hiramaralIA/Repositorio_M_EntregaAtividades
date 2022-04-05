@@ -1,4 +1,4 @@
-Algoritmo "EXERCIO 01"
+Algoritmo "Calculadora Simples"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
 // Descrição   : SOMA, SUB , MULTIPLICA, DIVIDE (função)
@@ -7,7 +7,7 @@ Algoritmo "EXERCIO 01"
 
 Var
 // Seção de Declarações das variáveis 
-X,Y   :  real
+X,Y   : real
 soma  : real
 sub   : real
 mult  : real

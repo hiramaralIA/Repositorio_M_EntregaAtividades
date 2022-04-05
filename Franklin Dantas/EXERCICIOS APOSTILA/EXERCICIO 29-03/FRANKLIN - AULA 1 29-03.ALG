@@ -1,4 +1,4 @@
-Algoritmo "EXERCIO 01"
+Algoritmo "Soma Numero"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
 // Descrição   : SOMA (função)
