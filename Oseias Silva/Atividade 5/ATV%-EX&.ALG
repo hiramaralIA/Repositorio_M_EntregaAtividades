@@ -13,7 +13,7 @@ Inicio
  escreval("-----Tabela de conversão: Celsius->Fahrenheit")
  escreva("Digite a temperatura em Celsius:")
  leia(cel)
- far <- (9*C + 160)/5
+ far<-(9*Cel+160)/5
  escreva("A temperatura em graus Fahrenheité:",far)
  
 
