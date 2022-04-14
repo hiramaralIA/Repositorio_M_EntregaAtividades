@@ -1,16 +1,16 @@
 Algoritmo "Exercicio2"
-// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral
-// DescriÃ§Ã£o   : Somar, Subtrair, Multiplicar e Dividir 2 nÃºmeros
-// Autor(a)    : Gabriel InÃ¡cio
+// Descrição   : Somar, Subtrair, Multiplicar e Dividir 2 números
+// Autor(a)    : Gabriel Inácio
 // Data atual  : 29/03/2022
 Var
-// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+// Seção de Declarações das variáveis
 
    opcao, res, valor1, valor2: real
 
 Inicio
-// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
    procedimento soma (x,y: inteiro)
    inicio
    res <- x + y
@@ -37,7 +37,7 @@ Inicio
    fimprocedimento
 
 
-   escreval("PROGRAM Somar, Subtrair, Multiplicar e Dividir 2 NÃºmeros")
+   escreval("PROGRAM Somar, Subtrair, Multiplicar e Dividir 2 Números")
    escreval("                     INFORME A OPCAO                    ")
    escreval("                       1 - SOMAR                        ")
    escreval("                       2 - SUBTRAIR                     ")
@@ -101,12 +101,12 @@ Inicio
                    escreval("============================")
                    escreval("RESULTADO : ",res)
                 senao
-                   escreval("NÃ£o exite divisÃ£o por '0'. ")
+                   escreval("Não exite divisão por '0'. ")
                 fimse
        fimescolha
 
    senao
-        escreval("OpÃ§Ã£o Invalida")
+        escreval("Opção Invalida")
    fimse
 
 Fimalgoritmo
