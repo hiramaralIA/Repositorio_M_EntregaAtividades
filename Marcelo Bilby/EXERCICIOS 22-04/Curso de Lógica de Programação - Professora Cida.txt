@@ -1,0 +1,1 @@
+Curso onde a professora Cida aborda em seu conteúdo, conceitos e práticas de lógica de programação. Utilizando em sua metodologia o portugês estruturado, através das respectivas ferramentas VisualG e  Portugol Studio.
